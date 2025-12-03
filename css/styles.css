@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5b1b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+#btnReestablecer {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff004c;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+#btnReestablecer:hover {
+    background-color: #b30074;
+}
